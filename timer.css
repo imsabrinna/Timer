@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+
+body {
+  background:#FFC624;
+  font-family: "Montserrat"
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  color: #151515;
+  text-align:center;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3.0em;
+}
+
+p {
+  font-family: "Tahoma";
+  font-weight: 100;
+  font-size: 5.6em;
+}
+
+button{
+  background: #FFC624;
+  border-radius: 8px;
+  color: #151515;
+  border: solid 1px #151515;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-family: "Montserrat";
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+    background: #151515;
+    color: #FFC624;
+}
